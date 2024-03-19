@@ -1,8 +1,8 @@
 version: "3.7"
 services:
   mysql:
-    image: mysql:8.0.28
-    platform: linux/amd64
+    image: mysql:latest
+    platform: linux/arm64
     environment:
       MYSQL_ROOT_PASSWORD: ${MYSQL_ROOT_PASSWORD}
       MYSQL_DATABASE: ${MYSQL_DATABASE}
